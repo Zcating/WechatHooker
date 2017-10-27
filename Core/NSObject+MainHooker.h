@@ -1,5 +1,5 @@
 //
-//  MutableWechatMgr.h
+//  NSObject+MainHooker.h
 //  WechatHooker
 //
 //  Created by  zcating on 2017/10/27.
@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MutableWechatMgr : NSObject
+@interface NSObject (MainHooker)
 
 +(void)hook;
+
 @end

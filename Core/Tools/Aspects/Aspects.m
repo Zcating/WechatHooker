@@ -100,9 +100,9 @@ static NSString *const AspectsMessagePrefix = @"aspects_";
 #pragma mark - Public Aspects API
 
 + (id<AspectToken>)aspect_hookSelector:(SEL)selector
-                      withOptions:(AspectOptions)options
-                       usingBlock:(void(^)(id<AspectInfo> info))block
-                            error:(NSError **)error {
+                           withOptions:(AspectOptions)options
+                            usingBlock:(void(^)(id<AspectInfo> info))block
+                                 error:(NSError **)error {
     return aspect_add((id)self, selector, options, block, error);
 }
 

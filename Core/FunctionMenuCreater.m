@@ -8,7 +8,6 @@
 
 #import "FunctionMenuCreater.h"
 
-
 @implementation FunctionMenuCreater
 
 +(instancetype)shared {
@@ -20,17 +19,21 @@
     return creater;
 }
 
-+(void)hook {
-    [RTAppDelegate aspect_hookSelector:@selector(applicationDidFinishLaunching:) withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> info) {
-        
-        NSMenu *functionMenu = [self menu];
-        NSMenuItem *item = [[NSMenuItem alloc] initWithTitle:@"防消息撤回" action:@selector(preventRevocation:) keyEquivalent:@""];
-        item.enabled = YES;
-        item.hidden = NO;
-        item.target = [self shared];
-        [functionMenu addItem:item];
-        
-    } error:nil];
++(void)createMenu {
+    NSMenu *functionMenu = [self menu];
+    NSMenuItem *item = [[NSMenuItem alloc] initWithTitle:@"防消息撤回" action:@selector(preventRevocation:) keyEquivalent:@""];
+    item.enabled = YES;
+    item.hidden = NO;
+    item.target = [self shared];
+    item.state = [[NSUserDefaults standardUserDefaults] boolForKey:ALLOW_PREVENT_REVOCATION];
+    [functionMenu addItem:item];
+    
+    
+    item = [[NSMenuItem alloc] initWithTitle:@"打开新的微信实例" action:@selector(openNewInstance) keyEquivalent:@"n"];
+    item.keyEquivalentModifierMask = NSEventModifierFlagCommand | NSEventModifierFlagShift;
+    item.target = [self shared];
+    [functionMenu addItem:item];
+    
 }
 
 
@@ -52,5 +55,12 @@
     [[NSUserDefaults standardUserDefaults] setBool:item.state forKey:ALLOW_PREVENT_REVOCATION];
 }
 
+-(void)openNewInstance {
+    NSString *applicationPath = [[NSBundle mainBundle] bundlePath];
+    NSTask *task = [[NSTask alloc] init];
+    task.launchPath = @"/usr/bin/open";
+    task.arguments = @[@"-n", applicationPath];
+    [task launch];
+}
 
 @end

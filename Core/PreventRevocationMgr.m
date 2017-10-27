@@ -37,12 +37,6 @@
             [[info originalInvocation] invoke];
         }
     } error:nil];
-    
-    [RTMessageService aspect_hookSelector:NSSelectorFromString(@"AddLocalMsg:msgData:") withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> info) {
-        for (id argument in [info arguments]) {
-            NSLog(@"%@", argument);
-        }
-    } error:nil];
 }
 
 #pragma mark - No Revoke Message

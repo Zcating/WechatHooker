@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class MessageService;
 @interface PreventRevocationMgr : NSObject
 
-+(void)hook;
++ (void)instance:(MessageService *)service preventRevoking:(NSString *)message;
 
 @end

@@ -10,8 +10,6 @@
 		CB1A13F81FA1713B0012AEE3 /* tweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB1A13F71FA1713B0012AEE3 /* tweak.mm */; };
 		CB1A13FD1FA1C50F0012AEE3 /* RTRegexHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A13FB1FA1C50F0012AEE3 /* RTRegexHelper.h */; };
 		CB1A13FE1FA1C50F0012AEE3 /* RTRegexHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1A13FC1FA1C50F0012AEE3 /* RTRegexHelper.m */; };
-		CB1A14011FA2C29A0012AEE3 /* MutableWechatMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A13FF1FA2C29A0012AEE3 /* MutableWechatMgr.h */; };
-		CB1A14021FA2C29A0012AEE3 /* MutableWechatMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1A14001FA2C29A0012AEE3 /* MutableWechatMgr.m */; };
 		CB1A14061FA2DBB60012AEE3 /* FunctionMenuCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A14041FA2DBB60012AEE3 /* FunctionMenuCreater.h */; };
 		CB1A14071FA2DBB60012AEE3 /* FunctionMenuCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1A14051FA2DBB60012AEE3 /* FunctionMenuCreater.m */; };
 		CB1A14131FA30C4D0012AEE3 /* MMServiceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A140E1FA30C4D0012AEE3 /* MMServiceCenter.h */; };
@@ -19,6 +17,11 @@
 		CB1A14151FA30C4D0012AEE3 /* MessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A14101FA30C4D0012AEE3 /* MessageData.h */; };
 		CB1A14161FA30C4D0012AEE3 /* MessageService.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A14111FA30C4D0012AEE3 /* MessageService.h */; };
 		CB1A14171FA30C4D0012AEE3 /* MMService-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A14121FA30C4D0012AEE3 /* MMService-Protocol.h */; };
+		CB1A141B1FA327F30012AEE3 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A14191FA327F30012AEE3 /* JRSwizzle.h */; };
+		CB1A141C1FA327F30012AEE3 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1A141A1FA327F30012AEE3 /* JRSwizzle.m */; };
+		CB1A141E1FA32D530012AEE3 /* CUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A141D1FA32D530012AEE3 /* CUtility.h */; };
+		CB1A14211FA345F80012AEE3 /* NSObject+MainHooker.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1A141F1FA345F80012AEE3 /* NSObject+MainHooker.h */; };
+		CB1A14221FA345F80012AEE3 /* NSObject+MainHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1A14201FA345F80012AEE3 /* NSObject+MainHooker.m */; };
 		CB1AFD051FA071080012AEE3 /* WechatHooker.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1AFD031FA071080012AEE3 /* WechatHooker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB1AFD121FA0731B0012AEE3 /* PreventRevocationMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1AFD101FA0731B0012AEE3 /* PreventRevocationMgr.h */; };
 		CB1AFD131FA0731B0012AEE3 /* PreventRevocationMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1AFD111FA0731B0012AEE3 /* PreventRevocationMgr.m */; };
@@ -31,8 +34,6 @@
 		CB1A13F91FA177640012AEE3 /* HookerPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookerPrefix.pch; sourceTree = "<group>"; };
 		CB1A13FB1FA1C50F0012AEE3 /* RTRegexHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTRegexHelper.h; sourceTree = "<group>"; };
 		CB1A13FC1FA1C50F0012AEE3 /* RTRegexHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTRegexHelper.m; sourceTree = "<group>"; };
-		CB1A13FF1FA2C29A0012AEE3 /* MutableWechatMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutableWechatMgr.h; sourceTree = "<group>"; };
-		CB1A14001FA2C29A0012AEE3 /* MutableWechatMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutableWechatMgr.m; sourceTree = "<group>"; };
 		CB1A14031FA2C3290012AEE3 /* TweakMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweakMacro.h; sourceTree = "<group>"; };
 		CB1A14041FA2DBB60012AEE3 /* FunctionMenuCreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionMenuCreater.h; sourceTree = "<group>"; };
 		CB1A14051FA2DBB60012AEE3 /* FunctionMenuCreater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionMenuCreater.m; sourceTree = "<group>"; };
@@ -41,6 +42,11 @@
 		CB1A14101FA30C4D0012AEE3 /* MessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageData.h; sourceTree = "<group>"; };
 		CB1A14111FA30C4D0012AEE3 /* MessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageService.h; sourceTree = "<group>"; };
 		CB1A14121FA30C4D0012AEE3 /* MMService-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMService-Protocol.h"; sourceTree = "<group>"; };
+		CB1A14191FA327F30012AEE3 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		CB1A141A1FA327F30012AEE3 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		CB1A141D1FA32D530012AEE3 /* CUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUtility.h; sourceTree = "<group>"; };
+		CB1A141F1FA345F80012AEE3 /* NSObject+MainHooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MainHooker.h"; sourceTree = "<group>"; };
+		CB1A14201FA345F80012AEE3 /* NSObject+MainHooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MainHooker.m"; sourceTree = "<group>"; };
 		CB1AFD001FA071080012AEE3 /* WechatHooker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WechatHooker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1AFD031FA071080012AEE3 /* WechatHooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatHooker.h; sourceTree = "<group>"; };
 		CB1AFD041FA071080012AEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,10 +79,20 @@
 		CB1A14081FA2DBDF0012AEE3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CB1A14181FA327F30012AEE3 /* JRSwizzle */,
 				CB1A13FA1FA1C4F00012AEE3 /* Regex */,
 				CB1AFD141FA0797B0012AEE3 /* Aspects */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CB1A14181FA327F30012AEE3 /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				CB1A14191FA327F30012AEE3 /* JRSwizzle.h */,
+				CB1A141A1FA327F30012AEE3 /* JRSwizzle.m */,
+			);
+			path = JRSwizzle;
 			sourceTree = "<group>";
 		};
 		CB1AFCF61FA071080012AEE3 = {
@@ -115,10 +131,10 @@
 				CB1A14081FA2DBDF0012AEE3 /* Tools */,
 				CB1AFD101FA0731B0012AEE3 /* PreventRevocationMgr.h */,
 				CB1AFD111FA0731B0012AEE3 /* PreventRevocationMgr.m */,
-				CB1A13FF1FA2C29A0012AEE3 /* MutableWechatMgr.h */,
-				CB1A14001FA2C29A0012AEE3 /* MutableWechatMgr.m */,
 				CB1A14041FA2DBB60012AEE3 /* FunctionMenuCreater.h */,
 				CB1A14051FA2DBB60012AEE3 /* FunctionMenuCreater.m */,
+				CB1A141F1FA345F80012AEE3 /* NSObject+MainHooker.h */,
+				CB1A14201FA345F80012AEE3 /* NSObject+MainHooker.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -135,6 +151,7 @@
 		CB1AFD191FA07F790012AEE3 /* WechatHeader */ = {
 			isa = PBXGroup;
 			children = (
+				CB1A141D1FA32D530012AEE3 /* CUtility.h */,
 				CB1A14101FA30C4D0012AEE3 /* MessageData.h */,
 				CB1A14111FA30C4D0012AEE3 /* MessageService.h */,
 				CB1A14121FA30C4D0012AEE3 /* MMService-Protocol.h */,
@@ -151,16 +168,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1A14011FA2C29A0012AEE3 /* MutableWechatMgr.h in Headers */,
+				CB1A141B1FA327F30012AEE3 /* JRSwizzle.h in Headers */,
 				CB1A14061FA2DBB60012AEE3 /* FunctionMenuCreater.h in Headers */,
 				CB1A13FD1FA1C50F0012AEE3 /* RTRegexHelper.h in Headers */,
 				CB1A14151FA30C4D0012AEE3 /* MessageData.h in Headers */,
 				CB1A14161FA30C4D0012AEE3 /* MessageService.h in Headers */,
 				CB1AFD121FA0731B0012AEE3 /* PreventRevocationMgr.h in Headers */,
 				CB1A14171FA30C4D0012AEE3 /* MMService-Protocol.h in Headers */,
+				CB1A14211FA345F80012AEE3 /* NSObject+MainHooker.h in Headers */,
 				CB1A14141FA30C4D0012AEE3 /* MMService.h in Headers */,
 				CB1AFD051FA071080012AEE3 /* WechatHooker.h in Headers */,
 				CB1A14131FA30C4D0012AEE3 /* MMServiceCenter.h in Headers */,
+				CB1A141E1FA32D530012AEE3 /* CUtility.h in Headers */,
 				CB1AFD171FA0797C0012AEE3 /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,12 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1A141C1FA327F30012AEE3 /* JRSwizzle.m in Sources */,
 				CB1AFD131FA0731B0012AEE3 /* PreventRevocationMgr.m in Sources */,
 				CB1A13F81FA1713B0012AEE3 /* tweak.mm in Sources */,
 				CB1AFD181FA0797C0012AEE3 /* Aspects.m in Sources */,
 				CB1A13FE1FA1C50F0012AEE3 /* RTRegexHelper.m in Sources */,
-				CB1A14021FA2C29A0012AEE3 /* MutableWechatMgr.m in Sources */,
 				CB1A14071FA2DBB60012AEE3 /* FunctionMenuCreater.m in Sources */,
+				CB1A14221FA345F80012AEE3 /* NSObject+MainHooker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

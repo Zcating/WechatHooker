@@ -10,6 +10,6 @@
 
 @interface FunctionMenuCreater : NSObject
 
-+(void)hook;
++(void)createMenu;
 
 @end

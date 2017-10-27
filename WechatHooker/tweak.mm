@@ -8,13 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Aspects.h"
-#import "PreventRevocationMgr.h"
-#import "MutableWechatMgr.h"
-#import "FunctionMenuCreater.h"
+#import "NSObject+MainHooker.h"
 
 static void __attribute__((constructor)) tweak(void) {
     NSLog(@"******************* Hooker Running *******************");
-    [FunctionMenuCreater hook];
-    [PreventRevocationMgr hook];
+    [NSObject hook];
 }

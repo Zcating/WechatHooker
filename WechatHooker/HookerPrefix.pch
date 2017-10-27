@@ -1,0 +1,24 @@
+//
+//  HookerPrefix.pch
+//  WechatHooker
+//
+//  Created by  zcating on 2017/10/26.
+//  Copyright © 2017年 Zcating. All rights reserved.
+//
+
+#ifndef HookerPrefix_pch
+#define HookerPrefix_pch
+
+
+#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
+#import <objc/runtime.h>
+
+#import "Aspects.h"
+#import "TweakMacro.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HookerPrefix_pch */

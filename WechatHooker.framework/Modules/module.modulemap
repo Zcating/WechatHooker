@@ -1,6 +1,0 @@
-framework module WechatHooker {
-  umbrella header "WechatHooker.h"
-
-  export *
-  module * { export * }
-}
